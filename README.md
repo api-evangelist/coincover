@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Coincover is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+CoinCover provides digital asset recovery and security services for institutions and retail users. It offers products such as CoinCover Protect, CoinCover Recover, and specialized solutions for exchanges, on‑ramps, custodians, and DeFi platforms. The company focuses on preventing loss of crypto wallets, mitigating cyber threats, and delivering compliance‑ready recovery infrastructure, backed by a Trust Center and extensive resources like guides, playbooks, and a developer portal.
+
+**Areas:** Company · Cryptocurrency · Security · Recovery · Fintech
+
+## Coincover on APIs.io
+
+Everything profiled for Coincover is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/coincover/](https://apis.io/providers/coincover/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Control Orchestrator API](https://apis.io/apis/coincover/control-orchestrator-api/) — API for orchestrating identity verification and key management workflows
+- [Recover for Institutions API](https://apis.io/apis/coincover/recover-for-institutions-api/) — Direct integration for institutions backing up their digital asset wallets
+- [Coincover Backup API](https://apis.io/apis/coincover/coincover-backup-api/) — The Backup API from Coincover — 1 operation(s) for backup.
+- [Coincover Backups API](https://apis.io/apis/coincover/coincover-backups-api/) — Store and verify encrypted backup data and files.
+- [Coincover Key API](https://apis.io/apis/coincover/coincover-key-api/) — The Key API from Coincover — 1 operation(s) for key.
+- [Coincover Keys API](https://apis.io/apis/coincover/coincover-keys-api/) — Generate, assign, and verify cryptographic keys.
+- [Coincover Partner API](https://apis.io/apis/coincover/coincover-partner-api/) — The Partner API from Coincover — 2 operation(s) for partner.
+- [Coincover Secure API](https://apis.io/apis/coincover/coincover-secure-api/) — The Secure API from Coincover — 1 operation(s) for secure.
+- [Coincover Verification API](https://apis.io/apis/coincover/coincover-verification-api/) — Start, check, and simulate biometric identity verification.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (22)
+
+The data models the API reads and writes.
+
+- [AssignKeyRequest](https://apis.io/schemas/coincover/coincover-assign-key-request/)
+- [AssignKeyResponse](https://apis.io/schemas/coincover/coincover-assign-key-response/)
+- [BackupRecoverRequest](https://apis.io/schemas/coincover/coincover-backup-recover-request/)
+- [BackupStoreRequest](https://apis.io/schemas/coincover/coincover-backup-store-request/)
+- [BackupStoreResponse](https://apis.io/schemas/coincover/coincover-backup-store-response/)
+- [GetV1PartnerKeysResponse](https://apis.io/schemas/coincover/coincover-get-v1-partner-keys-response/)
+- [KeyGenerateRequest](https://apis.io/schemas/coincover/coincover-key-generate-request/)
+- [KeyGenerateResponse](https://apis.io/schemas/coincover/coincover-key-generate-response/)
+- [PartnerAssignKeyRequest](https://apis.io/schemas/coincover/coincover-partner-assign-key-request/)
+- [PartnerAssignKeyResponse](https://apis.io/schemas/coincover/coincover-partner-assign-key-response/)
+- [PartnerSecureDataRequest](https://apis.io/schemas/coincover/coincover-partner-secure-data-request/)
+- [PartnerSecureFileRequest](https://apis.io/schemas/coincover/coincover-partner-secure-file-request/)
+- [PostV1KeyGenerateResponse](https://apis.io/schemas/coincover/coincover-post-v1-key-generate-response/)
+- [PostV1PartnerKeysRequest](https://apis.io/schemas/coincover/coincover-post-v1-partner-keys-request/)
+- [PostV1PartnerKeysResponse](https://apis.io/schemas/coincover/coincover-post-v1-partner-keys-response/)
+- [PostV1PartnerSecureSecureidRequest](https://apis.io/schemas/coincover/coincover-post-v1-partner-secure-secureid-request/)
+- [PostV1SecureSecureidRequest](https://apis.io/schemas/coincover/coincover-post-v1-secure-secureid-request/)
+- [SecureDataRequest](https://apis.io/schemas/coincover/coincover-secure-data-request/)
+- [SecureDataResponse](https://apis.io/schemas/coincover/coincover-secure-data-response/)
+- [SecureFileRequest](https://apis.io/schemas/coincover/coincover-secure-file-request/)
+- [SecureFileResponse](https://apis.io/schemas/coincover/coincover-secure-file-response/)
+- [VerificationSimulateRequest](https://apis.io/schemas/coincover/coincover-verification-simulate-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Coincover Context](https://apis.io/jsonld/coincover/coincover-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Coincover API Rules](https://apis.io/rules/coincover/coincover-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Coincover Domain Security](https://apis.io/security/coincover/coincover-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.coincover.com)
+- [Documentation](https://developer.coincover.com/)
+- [API reference](https://developer.coincover.com/llms.txt)
+- [Support](https://www.coincover.com/contact)
+- [Blog](https://www.coincover.com/blog)
+- [Trust centre](https://trust.coincover.com/)
+- [Terms of service](https://www.coincover.com/terms-of-use)
+- [Privacy policy](https://www.coincover.com/privacy-policy)
+- [GitHub](https://github.com/coincover)
+
+## API Evangelist rating
+
+**Kin Score 33.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.4 |
+| Contract quality | 26.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 28.9 |
+
+**Agent readiness 42.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/coincover/](https://apis.io/providers/coincover/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Coincover: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/coincover/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
